@@ -6,5 +6,7 @@
  * Time: 18:13
  */
 
+// Everything from the head tag
 $this->load->view('head');
+// Navigation bar
 $this->load->view('navbar');
