@@ -5847,20 +5847,12 @@ input:focus {
 
 .revolution-navbar {
   background-color: #2b73b3;
-  border-bottom: 3px solid #255394;
-  /* border-color: #255394; */ }
+  border-bottom: 3px solid #255394; }
 
-.navbar .revolution-navbar .navbar-nav > li > a {
+.revolution-navbar .navbar-nav > li > a {
   color: #fff; }
 
-.navbar .revolution-navbar .navbar-brand {
+.navbar-brand {
   color: #fff; }
-
-@media (min-width: 768px)
-  .navbar-nav > li > a {
-    padding-top: 15px;
-    color: #fff;
-    padding-bottom: 15px;
-  }
 
 /*# sourceMappingURL=app.css.map */

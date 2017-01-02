@@ -5,7 +5,6 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
     <link href="../public/css/app.css" rel="stylesheet" type="text/css"/>
-    <link href="../public/css/_navbar.css" rel="stylesheet" type="text/css"/>
 
 </head>
 
@@ -20,10 +19,10 @@
             </button>
             <a class="navbar-brand" href="#">R3VOLUTION</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse revolution-navbar">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li class="active"><a href="laravel/public/login">Home</a></li>
+                <li><a href="/login">Login</a></li>
                 <li><a href="#">Contact</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>

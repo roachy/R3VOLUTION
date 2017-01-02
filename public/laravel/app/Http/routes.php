@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('app');
-});
-
 Route::get('contact', function() {
     return view('pages.contact');
 });
@@ -22,3 +18,7 @@ Route::get('contact', function() {
 Route::get('login', function(){
     return view('pages.login');
 });
+
+Route::auth();
+
+Route::get('/', 'HomeController@index');
